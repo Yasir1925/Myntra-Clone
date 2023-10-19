@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto:wght@100;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.2%;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 90%;
+    padding: 0.1rem 5vw;
+    margin: auto;
+}
+.logo{
+    padding-right: 4.3rem;
+}
+
+.display-flex{
+    display: flex;
+    /* justify-content: center;  */
+    align-items: center;
+    height: 6.8rem;
+}
+header{
+    position: sticky;
+    top: 0rem;
+    background-color: white;
+}
+
+.navbarleft{
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+}
+.logo img{
+    height: 3.0rem;
+}
+.font-style{
+    font-style: normal;
+}
+.navbar{
+
+}
+.navbarleft ul li a{
+    color: black;
+    text-decoration: none;
+}
+.uppercase{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbarleft ul li{
+    padding: 1.2rem;
+    list-style: none;
+}
+
+/* navbar-right */
+.search{
+    height: 2.0rem;
+    width: 34.9rem;
+    padding-left: 2.7rem;
+}
+.navbarright{
+    padding-left: 10.2rem;
+}
+.margin{
+    margin-left: 1.9rem;
+    font-weight: bolder;
+}
+
+
+.main{
+    /* height: 122vh; */
+    background-color: rgb(226 226 226);
+}
+
+.bdy{
+    max-width: 98%;
+    margin: auto;
+}
+.main a img{
+    width: 100%;
+    padding-top: 2.5rem;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.para h1{
+    height: 13.8rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 5.0rem;
+}
+/* imaages started */
+.imgsec1 a img{
+    height: 27.9rem;
+    width: 28.0rem;
+}
+.imgdisc1{
+    display: flex;
+    height: 4.7rem;
+    align-items: center;
+}
+.imgdisc1 p{
+    color: black;
+}
+.imgdisc1 a{
+    text-decoration: none;
+}
+.desc{
+    padding: 5.9rem;
+}
+.para2{
+    height: 7.0rem;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 5.0rem;
+    padding-bottom: 3.0rem;
+}
+.imgg6 a img{
+    display: flex;
+    height: 32.5rem;
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer started */
+.foter{
+    background-color: #d9d9de;
+    padding-top: 3.3rem;
+    display: flex;
+    justify-content: center;
+}
+.foterdiv{
+    padding: 3.5rem;
+}
+.foterdiv p{
+    padding: 0.9rem;
+    cursor: pointer;
+}
+.foterdiv h4{
+    padding-left: 0.7rem;
+    padding-bottom: 2.0rem;
+    cursor: pointer;
+}
+.butt button{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    padding: 1.1rem;
+    border-radius: 0.9rem;
+}
